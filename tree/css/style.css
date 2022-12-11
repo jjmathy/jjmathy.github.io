@@ -14,7 +14,7 @@
   top: 3vw;
   right: 3vw;
   font-family: 'iconfont';
-  font-size: 50px;
+  font-size: 30px;
   color: #fff;
 }
 .main-wrapper {
@@ -56,10 +56,10 @@
   margin: 0;
 }
 .text-container h2.happy {
-  font-size: 3.3em;
+  font-size: 35px;
 }
 .text-container h2.happy2 {
-  font-size: 2em;
+  font-size: 20px;
 }
 .text-container a.c2 {
   display: block;

@@ -3,6 +3,8 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JackMo的圣诞树</title>
   <link type="text/css" href="css/style.css" rel="stylesheet" />
 </head>
@@ -676,16 +678,16 @@
   </div>
   <script>
     let music = document.querySelector('.music');
-    let music2=document.querySelector('.music2');
-    let txt=document.querySelector('.music span');
+    let music2 = document.querySelector('.music2');
+    let txt = document.querySelector('.music span');
     music.addEventListener('click', function () {
       if (music2.paused) {
         music2.play();
-        txt.innerHTML='&#xe796;';
+        txt.innerHTML = '&#xe796;';
       }
       else {
         music2.pause();
-        txt.innerHTML='&#xe795;';
+        txt.innerHTML = '&#xe795;';
       }
     });
 
